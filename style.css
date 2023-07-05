@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Merriweather+Sans:wght@300&family=Nanum+Gothic&family=Source+Sans+3:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Cinzel', cursive;
+    text-align: center;
+    color: white;
+}
+
+input {
+    margin: 10px auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.upper-buttons {
+    background-color: #434242;
+}
+
+button {
+    background-color: #45454545;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-family: 'Source Sans 3', cursive;
+    font-size: 2rem;
+    margin: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+button:active {
+    background-color: #80808080;
+}
+
+button:hover {
+    background-color: #80808080;
+}
+
+.right-buttons {
+    background-color: #FF8400;
+}
+
+.right-buttons:hover {
+    background-color: #FF8400;
+}
